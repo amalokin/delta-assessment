@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "delta-assessment"
+version = "0.1.0"
+description = ""
+authors = ["amalokin3 <amalokin@gmail.com>"]
+readme = "README.md"
+packages = [{include = "delta_assessment"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
